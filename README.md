@@ -15,12 +15,12 @@ Further work on the topic area of video texture can be found [here](https://angk
 If you use the code for your work/reports/papers, please cite the following:
 ```
 @misc{katsenou2021study,
-      title={Study of Compression Statistics and Prediction of Rate-Distortion Curves for Video Texture}, 
-      author={Angeliki V. Katsenou and Mariana Afonso and David R. Bull},
-      year={2021},
-      eprint={2102.04167},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+    title={Study of Compression Statistics and Prediction of Rate-Distortion Curves for Video Texture}, 
+    author={Angeliki V. Katsenou and Mariana Afonso and David R. Bull},
+    year={2021},
+    eprint={2102.04167},
+    archivePrefix={arXiv},
+    primaryClass={eess.IV}
 }
 
 @misc{GithubProject,
