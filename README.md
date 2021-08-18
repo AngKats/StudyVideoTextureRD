@@ -24,12 +24,12 @@ If you use the code for your work/reports/papers, please cite the following:
 }
 
 @misc{GithubProject,
-  author = {Katsenou, A.},
-  title = {{Prediction of Video Texture RDs}},
-  year = {2021},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/AngKats/StudyVideoTextureRD}},
+    author = {Katsenou, A.},
+    title = {{Prediction of Video Texture RDs}},
+    year = {2021},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/AngKats/StudyVideoTextureRD}},
 }
 ```
 
