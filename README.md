@@ -2,16 +2,17 @@
 
 Encoding textural content remains a challenge for current standardised video codecs. It is therefore beneficial to understand video textures in terms of both their spatio-temporal characteristics and their encoding statistics in order to optimize encoding performance.
 
-This repository provides code organised in folders that implements processes, as described in the paper below. Particularly:
-- feature extraction 
-- feature selection
+### Repository Content
+This repository provides code organised in folders that implements processes, as described in the paper with title "Study of Compression Statistics and Prediction of Rate-Distortion Curves for Video Texture" (see below). Particularly, the repository contains code for:
+- feature extraction;
+- feature selection;
 - RD model parameters prediction.
 
 The dataset used for this work is HomTex, is publicly available and can be downloaded [here](https://data.bristol.ac.uk/data/dataset/1h2kpxmxdhccf1gbi2pmvga6qp).
 
 Further work on the topic area of video texture can be found [here](https://angkats.github.io/video-texture/).
 
-## How to reference this work:
+### How to reference this work:
 If you use the code for your work/reports/papers, please cite the following:
 ```
 @misc{katsenou2021study,
