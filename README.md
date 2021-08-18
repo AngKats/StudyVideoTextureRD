@@ -1,8 +1,18 @@
-# Study of Compression Statistics and Prediction of Rate-Distortion Curves for Video Texture
+## Study of Compression Statistics and Prediction of Rate-Distortion Curves for Video Texture
 
-This repository provides code that implements processes such as feature extraction, selection, and RD model parameters prediction.
+Encoding textural content remains a challenge for current standardised video codecs. It is therefore beneficial to understand video textures in terms of both their spatio-temporal characteristics and their encoding statistics in order to optimize encoding performance.
 
+This repository provides code organised in folders that implements processes, as described in the paper below. Particularly:
+- feature extraction 
+- feature selection
+- RD model parameters prediction.
 
+The dataset used for this work is HomTex and can be found [here](https://data.bristol.ac.uk/data/dataset/1h2kpxmxdhccf1gbi2pmvga6qp).
+
+Further work on the topic area of video texture can be found [here](https://angkats.github.io/video-texture/).
+
+## How to reference this work:
+If you use the code for your work/reports/papers, please cite the following:
 ```
 @misc{katsenou2021study,
       title={Study of Compression Statistics and Prediction of Rate-Distortion Curves for Video Texture}, 
@@ -13,4 +23,13 @@ This repository provides code that implements processes such as feature extracti
       primaryClass={eess.IV}
 }
 
+@misc{GithubProject,
+  author = {Katsenou, A.},
+  title = {{Prediction of Video Texture RDs}},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/AngKats/StudyVideoTextureRD}},
+}
 ```
+
