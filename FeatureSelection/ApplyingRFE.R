@@ -7,7 +7,7 @@
 
 # ensure the results are repeatable
 set.seed(7)
-# load the library
+# load the libraries
 library(randomForest)
 library(mlbench)
 library(caret)

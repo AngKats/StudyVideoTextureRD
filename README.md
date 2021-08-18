@@ -7,7 +7,7 @@ This repository provides code organised in folders that implements processes, as
 - feature selection
 - RD model parameters prediction.
 
-The dataset used for this work is HomTex and can be found [here](https://data.bristol.ac.uk/data/dataset/1h2kpxmxdhccf1gbi2pmvga6qp).
+The dataset used for this work is HomTex, is publicly available and can be downloaded [here](https://data.bristol.ac.uk/data/dataset/1h2kpxmxdhccf1gbi2pmvga6qp).
 
 Further work on the topic area of video texture can be found [here](https://angkats.github.io/video-texture/).
 
