@@ -18,7 +18,7 @@ library(corrplot)
 allfeatures <- read_excel("Data_Features.xls")
 
 # calculate correlation matrix
-correlationMatrix <- cor(allfeatures[,1:31])
+correlationMatrix <- cor(allfeatures[,1:44])
 # summarize the correlation matrix
 print(correlationMatrix)
 # find attributes that are highly corrected (ideally >0.75)
@@ -26,13 +26,14 @@ highlyCorrelated <- findCorrelation(correlationMatrix, cutoff=0.8)
 # print indexes of highly correlated attributes
 print(highlyCorrelated)
 corrplot(correlationMatrix, method="circle")
+# other variations of plots
 #corrplot(correlationMatrix, type="upper", order="hclust", tl.col="black", tl.srt=45)
 #corrplot(correlationMatrix, method="number")
 
 # prepare training scheme
 control <- trainControl(method="repeatedcv", number=5, repeats=10)
 # train the model
-model <- train(Annotation~., data=allfeatures[,1:31], method="lvq", preProcess="scale", trControl=control)
+model <- train(Annotation~., data=allfeatures[,1:44], method="lvq", preProcess="scale", trControl=control)
 
 # estimate variable importance
 importance <- varImp(model, scale=FALSE)
@@ -44,7 +45,7 @@ plot(importance)
 # define the control using a random forest selection function
 control <- rfeControl(functions=rfFuncs, method="cv", number=5)
 # run the RFE algorithm
-results <- rfe(allfeatures[, 1:31], allfeatures[, 32], sizes=c(1:31), rfeControl=control)
+results <- rfe(allfeatures[, 1:44], allfeatures[, 45], sizes=c(1:44), rfeControl=control)
 
 # summarize the results
 print(results)
